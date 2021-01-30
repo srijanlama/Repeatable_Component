@@ -1,16 +1,14 @@
 <template>
-  <div class="container">
-    <RepeatableGroup />
-  </div>
+  <!-- <router-view> </router-view> -->
+  <Wrapper />
 </template>
 
 <script>
-import RepeatableGroup from "./components/RepeatableGroup.vue";
-
+import Wrapper from "./components/Wrapper";
 export default {
   name: "App",
   components: {
-    RepeatableGroup,
+    Wrapper,
   },
 };
 </script>
